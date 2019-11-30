@@ -15,7 +15,7 @@ BRANDS = []
   end
 
 
-  ef initialize(brand)
+ def initialize(brand)
     @brand = brand
     if !(BRANDS.include?(@brand))
       BRANDS << @brand
